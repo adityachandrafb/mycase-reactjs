@@ -9,17 +9,7 @@ export class foripad extends Component {
     render() {
         return (
             <div>
-                {/* <Box
-                sx={{
-                 width: 300,
-                height: 300,
-                backgroundColor: 'primary.light',
-                '&:hover': {
-                 backgroundColor: 'primary.main',
-                opacity: [0.9, 0.8, 0.7],
-                },
-                }}>
-                </Box>     */}
+                Ini halaman foripad
                 <IconButton color="inherit"> People </IconButton>
                 <DropdownIpad />
                 <DropdownIphone />

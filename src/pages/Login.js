@@ -5,16 +5,6 @@ export class Login extends Component {
         return (
             <div>
                 <h1> Ini Halaman Login </h1>
-                <h1> Ini Halaman Login </h1>
-                <h1> Ini Halaman Login </h1>
-                <h1> Ini Halaman Login </h1>
-                <h1> Ini Halaman Login </h1>
-                <h1> Ini Halaman Login </h1>
-                <h1> Ini Halaman Login </h1>
-                <h1> Ini Halaman Login </h1>
-                <h1> Ini Halaman Login </h1>
-                <h1> Ini Halaman Login </h1>
-                <h1> Ini Halaman Login </h1>
             </div>
         )
     }

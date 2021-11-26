@@ -7,17 +7,7 @@ export class checkout extends Component {
     render() {
         return (
             <div>
-                <h1> Ini Halaman Checkout </h1>
-                <h1> Ini Halaman Checkout </h1>
-                <h1> Ini Halaman Checkout </h1>
-                <h1> Ini Halaman Checkout </h1>
-                <h1> Ini Halaman Checkout </h1>
-                <h1> Ini Halaman Checkout </h1>
-                <h1> Ini Halaman Checkout </h1>
-                <h1> Ini Halaman Checkout </h1>
-                <h1> Ini Halaman Checkout </h1>
-                <h1> Ini Halaman Checkout </h1>
-                <h1> Ini Halaman Checkout </h1>
+                <h1> Ini Halaman Checkout atau keranjang</h1>
             </div>
         )
     }

@@ -9,38 +9,34 @@ const products = [
     {id: 2, name: 'Butter Life', price: 'Rp.299.000'}
 ]
     
-// // function Product(props){
-// //     const UseGetProduct = gql`
-// //     query MyQuery($id: Int!) {
-// //       mini_project_Product(where: {id: {_eq: $id}}) {
-// //         gambar
-// //         deskripsi_produk
-// //         harga
-// //         id
-// //         id_category
-// //         is_ready
-// //         nama
-// //       }
-// //     }  
-// //   `
-  
-// //     const [getProduct, { data, loading, error }] = useLazyQuery(UseGetProduct);
-// //     console.log (data)
+function Product(props){
+    const UseGetProduct = gql`
+    query MyQuery($id: Int!) {
+      mini_project_Product(where: {id: {_eq: $id}}) {
+        gambar
+        deskripsi_produk
+        harga
+        id
+        id_category
+        is_ready
+        nama
+      }
+    }; 
+    
+    const [getProduct, { data, loading, error }] = useLazyQuery(UseGetProduct);
+    console.log (data)
       
-// //     useEffect(() => {
-// //       getProduct({ 
-// //         variables: {id:props.match.params.id}
-// //       });
-// //       console.log("Welcome")
-// //     }, []);
+    useEffect(() => {
+      getProduct({ 
+        variables: {id:props.match.params.id}
+      });
+      console.log("Welcome")
+    }, []);
   
-// //     if (loading){
-// //       return <LoadingSvg />
-// //      }
-
-const Products = () => {
-    const classes = useStyles();
-    return (
+    if (loading){
+      return <LoadingSvg />
+     }
+     return (
         <main className={classes.content}>
             <div className={classes.toolbar} />
             <Grid container justify="centre" spacing={4}>
@@ -52,6 +48,5 @@ const Products = () => {
             </Grid>
         </main>
     );
-}
 
 export default Products;

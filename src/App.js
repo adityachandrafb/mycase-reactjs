@@ -39,7 +39,7 @@ const App = () => {
                         <Error />
                     </Route>
                 </Switch>
-            <Products />
+            {/* <Products /> */}
             <Footer />
             </Router>
       </MuiThemeProvider>

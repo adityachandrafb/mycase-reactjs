@@ -8,15 +8,6 @@ export class Faq extends Component {
         return (
             <div>
                 <h1> Ini Halaman FAQ </h1>
-                <h1> Ini Halaman FAQ </h1>
-                <h1> Ini Halaman FAQ </h1>
-                <h1> Ini Halaman FAQ </h1>
-                <h1> Ini Halaman FAQ </h1>
-                <h1> Ini Halaman FAQ </h1>
-                <h1> Ini Halaman FAQ </h1>
-                <h1> Ini Halaman FAQ </h1>
-                <h1> Ini Halaman FAQ </h1>
-                <h1> Ini Halaman FAQ </h1>
             </div>
         )
     }

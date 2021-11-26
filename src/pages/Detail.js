@@ -6,17 +6,7 @@ export class detail extends Component {
     render() {
         return (
             <div>
-                <h1> Ini Halaman Detail </h1>
-                <h1> Ini Halaman Detail </h1>
-                <h1> Ini Halaman Detail </h1>
-                <h1> Ini Halaman Detail </h1>
-                <h1> Ini Halaman Detail </h1>
-                <h1> Ini Halaman Detail </h1>
-                <h1> Ini Halaman Detail </h1>
-                <h1> Ini Halaman Detail </h1>
-                <h1> Ini Halaman Detail </h1>
-                <h1> Ini Halaman Detail </h1>
-                <h1> Ini Halaman Detail </h1>
+                <h1> Ini Halaman Detail Produk </h1>
             </div>
         )
     }
