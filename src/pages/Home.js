@@ -1,13 +1,25 @@
 import React, { Component } from 'react'
-import {Box} from '@material-ui/core';
-import Container from '@material-ui/core/Container';
-import Grid from '@material-ui/core/Grid';
+import {Box, Container, Button} from '@material-ui/core';
+import "../style-pages/home.css";
+import BannerHomes from "../style-pages/banner-homes.jpg";
+import { Navbar, Footer } from '../components';
 
 export class Home extends Component {
     render() {
         return (
             <div>
-                <h1> Ini Halaman Home </h1>                
+                <div> <Navbar /> </div>
+                <Container style={{
+                    minWidth: "100%",
+                    height: "auto",
+                    backgroundColor: '#cfe8fc',  
+                }}>
+                    <p className='h1-home'> OUR NEW PRODUCT</p>
+                    <img className='pict-home' src={BannerHomes} />  
+                    <a href='/foriphone'> <button className='button-home'> SHOP NOW</button> </a>
+                </Container>  
+                <div> <Footer /> </div> 
+                       
             </div>
         )
     }

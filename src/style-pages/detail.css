@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,500");
+
+.detail1 {
+    width: 490px;
+    height: 500px;
+    padding-top: 10pt;
+    padding-left: 10%;
+}
+.detail2 {
+    width: 140px;
+    height: 120px;
+    padding-left: 20pt;
+    margin-bottom: 10pt;
+}
+.detail-text {
+    font-size: 28pt;
+    padding-top: 10%;
+    font-weight: 800;
+    text-align: left;
+}
+.detail-text1 {
+    font-size: 14pt;
+    font-weight: 600;
+    text-align: left;
+}
+.detail-text2 {
+    font-size: 18pt;
+    font-weight: 800;
+    text-align: left;
+}
+.detail-text3 {
+    font-size: 14pt;
+    font-weight: 600;
+    text-align: left;
+}
+.detail-text4 {
+    font-size: 12pt;
+    font-weight: 600;
+    text-align: left;
+}
+.addtochart-button {
+    background-color: #2276B2;
+    border-radius: 12px;
+    border: none;
+    border-inline: none;
+    color: whitesmoke;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 5pt;
+}

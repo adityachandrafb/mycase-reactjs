@@ -9,14 +9,6 @@ const Navbar = () => {
     const classes = useStyles();
     return (
         <div>
-            {/* <AppBar position="fixed" className={classes.appBar2} color= 'inherit'> 
-            <Toolbar> 
-                <Typography variant= "h6" className={classes.title}color="inherit"> 
-                    FREE SHIPPING MINIMUM PURCHASE IDR 300.000
-                </Typography>
-            </Toolbar> 
-            </AppBar> */}
-
             <AppBar position="static" className={classes.appBar} color='inherit'>
                 <Toolbar>
                     <Typography variant="h5" className={classes.title} color="inherit">
@@ -35,8 +27,8 @@ const Navbar = () => {
                     <Typography className={classes.bar}> For IPad </Typography>
                         
                     </Button>
-                    <Button component={Link} to={'/faq'} color="inherit">
-                    <Typography  className={classes.bar}> FAQ </Typography>
+                    <Button component={Link} to={'/review'} color="inherit">
+                    <Typography  className={classes.bar}> REVIEW </Typography>
                        
                     </Button>
                     <div className={classes.grow} />

@@ -1,0 +1,72 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,500");
+
+.pict-iphone1 {
+    width: 200px;
+    height: 250px;
+    padding-top: 10pt;
+}
+.text-iphone1 {
+    font-size: 14pt;
+    padding-top: 10pt;
+    font-weight: 700;
+}
+.text-iphone2 {
+    font-size: 12pt;
+    margin-top: 0pt;
+    margin-bottom: 10pt;
+    font-weight: 700;
+}
+.dropdown {
+    margin-top: 15%;
+}
+.dropdown-ipad {
+    margin-top: 10%;
+}
+.text-dropdown1{
+    font-size: 12pt;
+    margin-top: 20pt;
+    margin-bottom: 10pt;
+    font-weight: 700;
+}
+.text-dropdown2{
+    font-size: 12pt;
+    margin-top: 10pt;
+    margin-bottom: 10pt;
+    font-weight: 700;
+}
+.buy-button {
+    background-color: #77DD77;
+    border-radius: 12px;
+    border: none;
+    border-inline: none;
+    color: black;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+}
+.detail-button {
+    background-color: #2276B2;
+    border-radius: 12px;
+    border: none;
+    border-inline: none;
+    color: whitesmoke;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 5pt;
+}
