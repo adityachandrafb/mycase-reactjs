@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Switch } from 'react-router-dom';
 import { MuiThemeProvider, createMuiTheme } from "@material-ui/core/styles";
-import {Home, Foriphone, Foripad, Checkout, Detail, Review, Login, ReviewPages } from './pages';
+import {Home, Foriphone, Foripad, Detail, Review, Login } from './pages';
 
 const theme = createMuiTheme({
     typography: {
@@ -27,9 +27,6 @@ const App = () => {
                     <Route exact path="/foripad"> 
                         <Foripad />
                     </Route>
-                    <Route exact path="/checkout"> 
-                        <Checkout />
-                    </Route>
                     <Route exact path="/login"> 
                         <Login />
                     </Route>
@@ -39,9 +36,7 @@ const App = () => {
                     <Route exact path="/detailproduct"> 
                         <Detail />
                     </Route>
-                    <Route exact path="/review/1"> 
-                        <ReviewPages />
-                    </Route>
+                   
                 </Switch>
             </Router>
       </MuiThemeProvider>

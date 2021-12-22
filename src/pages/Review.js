@@ -202,20 +202,20 @@ const [updateMessage, { loading: loadingUpdate }] = useMutation(
                                 style={{ height: "100px" }} />
                                 <br/> <br/>
                             
-                                <a href='/review/1'> <button 
+                                <button 
                                 type="submit"
                                 style={{ background: "#5DBB63" }}
                                 className="btn btn-primary"
                                 onClick={onSubmitList}>
                                     Post Review
-                                </button> </a>
+                                </button>
                             </form>
                             </div>
                         </Grid>
 
                         <Grid item xs={12} sm={4}>
                             {dataMessage?.Message.map((show) => (
-                            <li className="komen-list card-kontent mb-4">
+                            <li>
                               <div className="">
                                 <h5
                                   style={{ paddingLeft: "10%" }}
