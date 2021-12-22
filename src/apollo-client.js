@@ -5,21 +5,21 @@ import { getMainDefinition } from '@apollo/client/utilities';
 
 
 const httpLink = new HttpLink({
-  uri: 'https://credible-wasp-50.hasura.app/v1/graphql',
+  uri: 'https://full-egret-76.hasura.app/v1/graphql',
   headers: {
     'x-hasura-admin-secret':
-      'PQNyM2r6F4pBvCRBMEezEkIsTTbtMGu5H4znD07kbp393n54XwLumLAYlq1ealfY',
+      '4YD68r3xGX2e5nVh41RpJULO3wOxYaOCVOu0tgxw9j9T4FRHjBRQhiVabv1jWRSL',
   },
 });
 
 const wsLink = new WebSocketLink({
-  uri: 'wss://credible-wasp-50.hasura.app/v1/graphql',
+  uri: 'wss://full-egret-76.hasura.app/v1/graphql',
   options: {
     reconnect: true,
     connectionParams: {
       headers: {
         'x-hasura-admin-secret':
-          'PQNyM2r6F4pBvCRBMEezEkIsTTbtMGu5H4znD07kbp393n54XwLumLAYlq1ealfY',
+          '4YD68r3xGX2e5nVh41RpJULO3wOxYaOCVOu0tgxw9j9T4FRHjBRQhiVabv1jWRSL',
       },
     }
   }

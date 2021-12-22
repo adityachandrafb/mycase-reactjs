@@ -5,3 +5,4 @@ export {default as Checkout} from './Checkout';
 export {default as Detail} from './Detail';
 export {default as Review} from './Review';
 export {default as Login} from './Login';
+export {default as ReviewPages} from './ReviewPages';
